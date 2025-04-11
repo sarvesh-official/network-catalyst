@@ -170,7 +170,7 @@ export function OfferingsSection() {
                   animate={{ opacity: 1, y: 0 }}
                   exit={{ opacity: 0, y: -20 }}
                   transition={{ duration: 0.3 }}
-                  className="glass-card rounded-2xl p-8 cursor-glow"
+                  className="glass-card rounded-2xl p-8"
                 >
                   <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center">
                     <div>
@@ -185,7 +185,7 @@ export function OfferingsSection() {
                         Learn More <ArrowRight className="ml-2 h-4 w-4" />
                       </Button>
                     </div>
-                    <div className="bg-blue-50/50 rounded-xl p-6">
+                    <div className="bg-blue-50 rounded-xl p-6">
                       <h4 className="font-medium text-gray-900 mb-4">Key Features</h4>
                       <ul className="space-y-3">
                         {offering.features.map((feature, idx) => (

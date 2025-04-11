@@ -97,7 +97,7 @@ export function AboutSection() {
           >
             <div className="relative h-[400px] md:h-[500px] rounded-lg overflow-hidden shadow-xl">
               <Image
-                src="/placeholder.svg?height=500&width=600"
+                src="https://networkcatalyst.in/wp-content/uploads/2024/02/plan-planning-strategy-bysiness-ideas-concept-1.jpg"
                 alt="About Network Catalyst"
                 fill
                 className="object-cover"

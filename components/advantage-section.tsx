@@ -60,8 +60,8 @@ export function AdvantageSection() {
             animate={isInView ? "visible" : "hidden"}
             className="relative order-2 lg:order-1"
           >
-            <div className="relative h-[400px] rounded-lg overflow-hidden shadow-xl">
-              <Image src="/placeholder.svg?height=400&width=600" alt="Our Advantage" fill className="object-cover" />
+            <div className="relative h-[500px] rounded-lg overflow-hidden shadow-xl">
+              <Image src="https://networkcatalyst.in/wp-content/uploads/2024/02/business-planning-ok.png" alt="Our Advantage" fill className="object-cover" />
               <div className="absolute inset-0 bg-gradient-to-t from-blue-900/70 to-transparent"></div>
               <div className="absolute bottom-0 left-0 right-0 p-6 text-white">
                 <h3 className="text-2xl font-bold mb-2">Our Advantage</h3>

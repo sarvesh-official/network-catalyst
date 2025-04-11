@@ -15,21 +15,21 @@ export function NewsSection() {
     {
       title: "Unlocking Business Potential: The Role of an IT System Integrator",
       date: "April 5, 2023",
-      image: "/placeholder.svg?height=200&width=400",
+      image: "https://networkcatalyst.in/wp-content/uploads/2024/02/3-1024x788.jpg",
       excerpt:
         "Discover how IT system integrators can help businesses streamline operations and maximize efficiency through integrated technology solutions.",
     },
     {
       title: "Empowering Businesses through Expert IT Solutions",
       date: "March 15, 2023",
-      image: "/placeholder.svg?height=200&width=400",
+      image: "https://networkcatalyst.in/wp-content/uploads/2024/02/2-1024x788.jpg",
       excerpt:
         "Learn how our expert IT solutions are helping businesses of all sizes overcome technical challenges and achieve their goals.",
     },
     {
       title: "Navigating Digital Transformation: Maximizing Business Potential",
       date: "February 28, 2023",
-      image: "/placeholder.svg?height=200&width=400",
+      image: "https://networkcatalyst.in/wp-content/uploads/2024/02/1-1024x788.jpg",
       excerpt:
         "Explore the key strategies for successful digital transformation and how it can unlock new opportunities for your business.",
     },

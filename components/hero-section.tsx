@@ -39,19 +39,22 @@ export function HeroSection() {
 
   const floatingIcons = [
     { Icon: Server, x: "10%", y: "20%", size: "h-8 w-8", delay: 0 },
-    { Icon: Server, x: "20%", y: "20%", size: "h-8 w-8", delay: 0 },
+    { Icon: Server, x: "1%", y: "6%", size: "h-8 w-8", delay: 0 },
     { Icon: Cloud, x: "85%", y: "15%", size: "h-10 w-10", delay: 0.5 },
+    { Icon: Cloud, x: "45%", y: "5%", size: "h-10 w-10", delay: 0.5 },
     { Icon: Cloud, x: "55%", y: "15%", size: "h-10 w-10", delay: 0.5 },
     { Icon: Shield, x: "75%", y: "70%", size: "h-8 w-8", delay: 1 },
     { Icon: Shield, x: "25%", y: "70%", size: "h-8 w-8", delay: 1 },
     { Icon: Database, x: "20%", y: "80%", size: "h-6 w-6", delay: 1.5 },
-    { Icon: Database, x: "40%", y: "80%", size: "h-6 w-6", delay: 1.5 },
-    { Icon: Database, x: "50%", y: "80%", size: "h-6 w-6", delay: 1.5 },
-    { Icon: Cpu, x: "50%", y: "30%", size: "h-7 w-7", delay: 2 },
-    { Icon: Cpu, x: "56%", y: "30%", size: "h-7 w-7", delay: 2 },
-    { Icon: Cpu, x: "90%", y: "30%", size: "h-7 w-7", delay: 2 },
-    { Icon: Zap, x: "30%", y: "60%", size: "h-9 w-9", delay: 2.5 },
-    { Icon: Zap, x: "80%", y: "60%", size: "h-9 w-9", delay: 2.5 },
+    { Icon: Database, x: "35%", y: "30%", size: "h-6 w-6", delay: 1.5 },
+    { Icon: Database, x: "40%", y: "46%", size: "h-6 w-6", delay: 1.5 },
+    { Icon: Database, x: "15%", y: "8%", size: "h-6 w-6", delay: 1.5 },
+    { Icon: Database, x: "1%", y: "80%", size: "h-6 w-6", delay: 1.5 },
+    { Icon: Cpu, x: "50%", y: "52%", size: "h-7 w-7", delay: 2 },
+    { Icon: Cpu, x: "56%", y: "79%", size: "h-7 w-7", delay: 2 },
+    { Icon: Cpu, x: "90%", y: "24%", size: "h-7 w-7", delay: 2 },
+    { Icon: Zap, x: "30%", y: "66%", size: "h-9 w-9", delay: 2.5 },
+    { Icon: Zap, x: "80%", y: "30%", size: "h-9 w-9", delay: 2.5 },
     { Icon: Zap, x: "96%", y: "60%", size: "h-9 w-9", delay: 2.5 },
   ]
 
@@ -183,10 +186,10 @@ export function HeroSection() {
                 transition={{ duration: 3, repeat: Number.POSITIVE_INFINITY }}
               ></motion.div>
               <Image
-                src="/placeholder.svg?height=500&width=500"
+                src="https://t4.ftcdn.net/jpg/02/67/08/43/360_F_267084312_yDazSGq2pRMunfl3LNBlaJhVHTwFtkMh.jpg"
                 alt="Enterprise IT Solutions"
                 fill
-                className="object-contain p-8"
+                className="object-cover p-8"
               />
             </div>
 

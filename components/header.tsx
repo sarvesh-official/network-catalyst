@@ -71,7 +71,7 @@ export function Header() {
       <motion.nav
         className={cn(
           "py-3 transition-all duration-300",
-          scrolled ? "bg-white shadow-md" : "bg-white/90 backdrop-blur-sm",
+          scrolled ? "bg-white shadow-md" : "bg-transparent",
         )}
         initial={{ y: -100 }}
         animate={{ y: 0 }}
@@ -80,10 +80,10 @@ export function Header() {
         <div className="container-custom flex justify-between items-center">
           <Link href="/" className="flex items-center">
             <Image
-              src="/placeholder.svg?height=50&width=50"
+              src="/logo.png"
               alt="Network Catalyst Logo"
-              width={50}
-              height={50}
+              width={55}
+              height={55}
               className="mr-2"
             />
             <div className="flex flex-col">

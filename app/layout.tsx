@@ -23,7 +23,8 @@ export const metadata: Metadata = {
     "Network Catalyst Solutions is a technology consulting and solutions company helping organizations gain edge in the market through innovative IT infrastructure, solutions, and management.",
   keywords:
     "IT consulting, technology solutions, network infrastructure, digital transformation, IT services, cloud solutions, cybersecurity",
-    generator: 'v0.dev'
+    generator: 'v0.dev',
+    icons : ["logo.png"]
 }
 
 export default function RootLayout({

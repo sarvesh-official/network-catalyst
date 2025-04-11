@@ -44,14 +44,14 @@ export function Footer() {
       </div>
 
       {/* Top Wave */}
-      <div className="wave-top">
+      {/* <div className="wave-top">
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
           <path
             d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z"
             className="fill-white"
           ></path>
         </svg>
-      </div>
+      </div> */}
 
       <div className="container-custom pt-24 pb-8 relative z-10">
         <motion.div
@@ -65,7 +65,7 @@ export function Footer() {
             <Link href="/" className="flex items-center">
               <div className="relative h-12 w-12 mr-3 bg-white rounded-full p-2">
                 <Image
-                  src="/placeholder.svg?height=50&width=50"
+                  src="logo.png"
                   alt="Network Catalyst Logo"
                   fill
                   className="object-contain"

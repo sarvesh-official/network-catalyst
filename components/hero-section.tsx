@@ -186,7 +186,7 @@ export function HeroSection() {
                 transition={{ duration: 3, repeat: Number.POSITIVE_INFINITY }}
               ></motion.div>
               <Image
-                src="https://t4.ftcdn.net/jpg/02/67/08/43/360_F_267084312_yDazSGq2pRMunfl3LNBlaJhVHTwFtkMh.jpg"
+                src="https://networkcatalyst.in/wp-content/uploads/2024/02/Various-Sectors.jpg"
                 alt="Enterprise IT Solutions"
                 fill
                 className="object-cover p-8"
@@ -232,7 +232,7 @@ export function HeroSection() {
       </div>
 
       {/* Bottom Wave */}
-      <div className="absolute bottom-0 left-0 w-full overflow-hidden">
+      {/* <div className="absolute bottom-0 left-0 w-full overflow-hidden">
         <svg
           xmlns="http://www.w3.org/2000/svg"
           viewBox="0 0 1200 120"
@@ -244,7 +244,7 @@ export function HeroSection() {
             className="fill-white"
           ></path>
         </svg>
-      </div>
+      </div> */}
     </section>
   )
 }

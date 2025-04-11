@@ -31,8 +31,7 @@ export function Header() {
     { href: "/", label: "Home" },
     { href: "/about", label: "About Us" },
     { href: "/services", label: "Our Services" },
-    { href: "/case-studies", label: "Case Studies" },
-    { href: "/contact", label: "Contact Us" },
+    { href: "/products", label: "Products" },
   ]
 
   return (
@@ -104,7 +103,7 @@ export function Header() {
                 <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-primary transition-all duration-300 group-hover:w-full"></span>
               </Link>
             ))}
-            <Button className="bg-primary hover:bg-blue-700 text-white">Get a Quote</Button>
+            <Button className="bg-primary hover:bg-blue-700 text-white">Contact Us</Button>
           </div>
 
           {/* Mobile menu button */}

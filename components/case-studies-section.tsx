@@ -15,53 +15,53 @@ export function CaseStudiesSection() {
     {
       title: "CLOUD",
       icon: Cloud,
-      image: "/placeholder.svg?height=300&width=400",
+      image: "https://networkcatalyst.in/wp-content/uploads/2024/02/1-1.png",
       description:
         "Migration of legacy systems to cloud infrastructure for a financial institution, resulting in 40% cost reduction.",
     },
     {
       title: "FIELD ENGINEERING",
       icon: Users,
-      image: "/placeholder.svg?height=300&width=400",
+      image: "https://networkcatalyst.in/wp-content/uploads/2024/02/2.png",
       description:
         "Deployment of field service management solution for a manufacturing company, improving service delivery by 60%.",
     },
     {
       title: "PROJECT MANAGEMENT",
       icon: BarChart,
-      image: "/placeholder.svg?height=300&width=400",
+      image: "https://networkcatalyst.in/wp-content/uploads/2024/02/3.png",
       description:
         "End-to-end project management for a large-scale IT infrastructure upgrade across multiple locations.",
     },
     {
       title: "LEARNING & TRAINING",
       icon: GraduationCap,
-      image: "/placeholder.svg?height=300&width=400",
+      image: "https://networkcatalyst.in/wp-content/uploads/2024/02/4.png",
       description:
         "Custom training program development for new technology adoption, resulting in 90% user proficiency.",
     },
     {
       title: "BUSINESS PROCESS CONSULTING",
       icon: LineChart,
-      image: "/placeholder.svg?height=300&width=400",
+      image: "https://networkcatalyst.in/wp-content/uploads/2024/02/5.png",
       description: "Business process optimization for an e-commerce company, reducing operational costs by 30%.",
     },
     {
       title: "RELOCATION",
       icon: Move,
-      image: "/placeholder.svg?height=300&width=400",
+      image: "https://networkcatalyst.in/wp-content/uploads/2024/02/5.png",
       description: "Seamless IT infrastructure relocation for a corporate headquarters with zero business disruption.",
     },
     {
       title: "CHANNEL SETUP",
       icon: Store,
-      image: "/placeholder.svg?height=300&width=400",
+      image: "https://networkcatalyst.in/wp-content/uploads/2024/02/7.png",
       description: "Establishment of distribution channels for a technology provider, expanding market reach by 50%.",
     },
     {
       title: "AUDIT & ADVISORY",
       icon: FileSearch,
-      image: "/placeholder.svg?height=300&width=400",
+      image: "https://networkcatalyst.in/wp-content/uploads/2024/02/7.png",
       description: "Comprehensive IT audit and advisory services for regulatory compliance and security enhancement.",
     },
   ]

@@ -10,7 +10,7 @@ export function CtaSection() {
   const isInView = useInView(ref, { once: true, amount: 0.5 })
 
   return (
-    <section ref={ref} className="bg-gradient-to-r from-blue-700 to-blue-600 py-16">
+    <section ref={ref} className="bg-gradient-to-r from-blue-700 to-blue-600 py-16 mb-10">
       <div className="container-custom">
         <div className="flex flex-col md:flex-row items-center justify-between gap-8">
           <motion.div
